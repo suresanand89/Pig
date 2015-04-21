@@ -20,7 +20,6 @@ public class MainActivity extends ActionBarActivity {
     private TextView player1,player2,roundView;
     private Button roll,hold;
     private int score,round=0,score2;
-    private int card;
 
 
     @Override
@@ -42,7 +41,7 @@ public class MainActivity extends ActionBarActivity {
         player2.setText("P2: " + score2);
 
 
-        //test
+        
 
         if(score > 100 || score2 > 100) {
             AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
